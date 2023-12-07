@@ -1,4 +1,4 @@
-package org.example;
+package com.paulofranklins.leetcode500;
 
 class DetectCapitalUse {
     public boolean detectCapitalUse(String word) {
@@ -26,6 +26,6 @@ class DetectCapitalUse {
 
     public static void main(String[] args) {
         DetectCapitalUse s = new DetectCapitalUse();
-        System.out.println(s.detectCapitalUse("aafSsfq"));
+        System.out.println(s.detectCapitalUse("asdfasdfasdf"));
     }
 }
