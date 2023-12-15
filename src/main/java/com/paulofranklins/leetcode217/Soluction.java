@@ -1,18 +1,19 @@
 package com.paulofranklins.leetcode217;
 
-import java.util.HashMap;
+import java.util.HashSet;
 
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        var map = new HashMap<Integer, Integer>();
-        for (int i = 0; i < nums.length; i++) {
+        var hashSet = new HashSet<Integer>();
 
-            if (!map.containsValue(nums[i])) {
-                map.put(i, nums[i]);
+        for (int num : nums) {
+            if (hashSet.contains(num)) {
+                hashSet.add(num);
             } else {
                 return true;
             }
         }
+
         return false;
     }
 
