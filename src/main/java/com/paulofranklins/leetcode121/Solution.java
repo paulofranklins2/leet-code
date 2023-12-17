@@ -1,7 +1,5 @@
 package com.paulofranklins.leetcode121;
 
-import java.util.HashSet;
-
 class Solution {
     public int maxProfit(int[] prices) {
 
