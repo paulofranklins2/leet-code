@@ -15,4 +15,9 @@ class Solution {
         }
         return String.valueOf(builder);
     }
+
+    public static void main(String[] args) {
+        var x = new Solution().truncateSentence("Hello World Welcome To my github", 4);
+        System.out.println(x);
+    }
 }
