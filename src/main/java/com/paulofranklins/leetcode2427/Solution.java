@@ -12,4 +12,9 @@ class Solution {
         }
         return rs;
     }
+
+    public static void main(String[] args) {
+        var x = new Solution().commonFactors(10, 20);
+        System.out.println(x);
+    }
 }
