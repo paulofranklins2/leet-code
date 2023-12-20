@@ -1,5 +1,7 @@
 package com.paulofranklins.leetcode219;
 
+import java.util.Arrays;
+
 class Solution {
     public int[] separateDigits(int[] nums) {
         var sBuilder = new StringBuilder();
@@ -15,6 +17,6 @@ class Solution {
 
     public static void main(String[] args) {
         var x = new Solution().separateDigits(new int[]{13, 25, 83, 77});
-        System.out.println(x);
+        System.out.println(Arrays.toString(x));
     }
 }
