@@ -41,7 +41,6 @@ class Solution {
         return temp.toString();
         */
 
-
         /*Option 2 using StringBuilder reverse.*/
 
         var words = s.split(" ");
