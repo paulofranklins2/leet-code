@@ -14,7 +14,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        var x = new Solution().findWordsContaining(new String[] {"leet","no","code", "dev"}, 'e');
+        var x = new Solution().findWordsContaining(new String[]{"leet", "no", "code", "dev"}, 'e');
         System.out.println(x);
     }
 }
